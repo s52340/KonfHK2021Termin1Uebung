@@ -1,9 +1,12 @@
+package org.campus02;
+
 public class Account {
     private String owner;
     private double amount;
 
 
-    public Account(String accountOwner) {
+    // amount re. in Klammer weglöschen ? wird immer auf 100.000 gesetzt)
+    public Account(String accountOwner, double amount) {
         this.owner = accountOwner;
         this.amount = 100.000;
     }
