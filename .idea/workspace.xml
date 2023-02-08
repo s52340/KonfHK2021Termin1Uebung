@@ -4,10 +4,10 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35e5862e-2f8e-4e1f-b12c-a7acbcfe0854" name="Changes" comment="Testklasse inklusive Konstruktor-Test, credit Test; oftenCredit Test;">
+    <list default="true" id="35e5862e-2f8e-4e1f-b12c-a7acbcfe0854" name="Changes" comment="Testklasse inklusive debit90 und debit100 (Aenderung der Implementierung der debit Methode in der Account Klasse)">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/org/campus02/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campus02/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/target/test-classes/test/AccountTest.class" beforeDir="false" afterPath="$PROJECT_DIR$/target/test-classes/test/AccountTest.class" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -66,7 +66,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.debit100">
+  <component name="RunManager" selected="JUnit.AccountTest.debit">
     <configuration name="AccountTest.credit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KonfHK2021Termin1Uebung" />
       <extension name="coverage">
@@ -149,9 +149,9 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest.debit" />
         <item itemvalue="JUnit.AccountTest.debit100" />
         <item itemvalue="JUnit.AccountTest.debit90" />
-        <item itemvalue="JUnit.AccountTest.debit" />
         <item itemvalue="JUnit.AccountTest.oftenCredit" />
         <item itemvalue="JUnit.AccountTest.credit" />
       </list>
@@ -201,7 +201,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675870181061</updated>
     </task>
-    <option name="localTasksCounter" value="6" />
+    <task id="LOCAL-00006" summary="Testklasse inklusive debit90 und debit100 (Aenderung der Implementierung der debit Methode in der Account Klasse)">
+      <created>1675871688457</created>
+      <option name="number" value="00006" />
+      <option name="presentableId" value="LOCAL-00006" />
+      <option name="project" value="LOCAL" />
+      <updated>1675871688457</updated>
+    </task>
+    <option name="localTasksCounter" value="7" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -210,6 +217,7 @@
     <MESSAGE value="Testklasse inklusive Konstruktor-Test;" />
     <MESSAGE value="Testklasse inklusive Konstruktor-Test, credit Test;" />
     <MESSAGE value="Testklasse inklusive Konstruktor-Test, credit Test; oftenCredit Test;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testklasse inklusive Konstruktor-Test, credit Test; oftenCredit Test;" />
+    <MESSAGE value="Testklasse inklusive debit90 und debit100 (Aenderung der Implementierung der debit Methode in der Account Klasse)" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testklasse inklusive debit90 und debit100 (Aenderung der Implementierung der debit Methode in der Account Klasse)" />
   </component>
 </project>

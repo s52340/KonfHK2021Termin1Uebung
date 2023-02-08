@@ -78,4 +78,18 @@ class AccountTest {
         double expectedAmount = 0.0;
         Assertions.assertEquals(expectedAmount, person1.getAmount());
     }
+
+    @Test
+    @DisplayName("Von 100 soll 120 abgezogen werden")
+    void debit(){
+        boolean expected100Minus120 = false;
+        Assertions.assertTrue(expected100Minus120 == person1.debit(120));
+        //oder: Assertions.assertEquals(expected100Minus120,person1.debit(120));
+
+        //wann assertFalse??
+
+        double expectedValue = 100.00;
+        Assertions.assertEquals(expectedValue,person1.getAmount());
+
+    }
 }
