@@ -4,12 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35e5862e-2f8e-4e1f-b12c-a7acbcfe0854" name="Changes" comment="Methode depit, MVN-Konfiguration, inkl dependencies und surefire plugin">
+    <list default="true" id="35e5862e-2f8e-4e1f-b12c-a7acbcfe0854" name="Changes" comment="Testklasse inklusive Konstruktor-Test, credit Test;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/KonfHK2021Termin1Uebung.iml" beforeDir="false" afterPath="$PROJECT_DIR$/KonfHK2021Termin1Uebung.iml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/pom.xml" beforeDir="false" afterPath="$PROJECT_DIR$/pom.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/main/java/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campus02/Account.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/test/java/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AccountTest.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/test/java/test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -68,7 +65,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.credit">
+  <component name="RunManager" selected="JUnit.AccountTest.oftenCredit">
     <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KonfHK2021Termin1Uebung" />
       <extension name="coverage">
@@ -100,6 +97,22 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
+    <configuration name="AccountTest.oftenCredit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin1Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountTest" />
+      <option name="METHOD_NAME" value="oftenCredit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
     <configuration name="AccountTest.testKonstruktor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KonfHK2021Termin1Uebung" />
       <extension name="coverage">
@@ -126,6 +139,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest.oftenCredit" />
         <item itemvalue="JUnit.AccountTest.credit" />
         <item itemvalue="JUnit.AccountTest.testKonstruktor" />
         <item itemvalue="JUnit.AccountTest" />
@@ -156,12 +170,28 @@
       <option name="project" value="LOCAL" />
       <updated>1675821998640</updated>
     </task>
-    <option name="localTasksCounter" value="3" />
+    <task id="LOCAL-00003" summary="Testklasse inklusive Konstruktor-Test;">
+      <created>1675869566807</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1675869566807</updated>
+    </task>
+    <task id="LOCAL-00004" summary="Testklasse inklusive Konstruktor-Test, credit Test;">
+      <created>1675869802747</created>
+      <option name="number" value="00004" />
+      <option name="presentableId" value="LOCAL-00004" />
+      <option name="project" value="LOCAL" />
+      <updated>1675869802747</updated>
+    </task>
+    <option name="localTasksCounter" value="5" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="Klasse Account erstellt, inklusive Konstruktor, Getter + Setter, Methode credit" />
     <MESSAGE value="Methode depit, MVN-Konfiguration, inkl dependencies und surefire plugin" />
-    <option name="LAST_COMMIT_MESSAGE" value="Methode depit, MVN-Konfiguration, inkl dependencies und surefire plugin" />
+    <MESSAGE value="Testklasse inklusive Konstruktor-Test;" />
+    <MESSAGE value="Testklasse inklusive Konstruktor-Test, credit Test;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testklasse inklusive Konstruktor-Test, credit Test;" />
   </component>
 </project>

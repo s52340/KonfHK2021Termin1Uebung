@@ -40,6 +40,22 @@ class AccountTest {
     }
 
     @Test
+    void oftenCredit(){
+
+        person2.credit(110.0);
+        double expected1 = 210.0;
+        Assertions.assertEquals(expected1, person2.getAmount());
+
+        person2.credit(120);
+        double expected2 = 330.00;
+        Assertions.assertEquals(expected2, person2.getAmount());
+
+        person2.credit(130.0);
+        double expected3 = 460.00;
+        Assertions.assertEquals(expected3, person2.getAmount());
+    }
+
+    @Test
     void debit() {
     }
 }
