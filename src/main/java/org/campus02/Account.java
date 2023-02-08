@@ -33,7 +33,7 @@ public class Account {
     }
 
     public boolean debit(double valueMinus){
-        if ( valueMinus >= amount){
+        if ( valueMinus <= amount){
             amount = amount - valueMinus;
             return true;
         } else {

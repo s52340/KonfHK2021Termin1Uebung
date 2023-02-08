@@ -4,8 +4,9 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="35e5862e-2f8e-4e1f-b12c-a7acbcfe0854" name="Changes" comment="Testklasse inklusive Konstruktor-Test, credit Test;">
+    <list default="true" id="35e5862e-2f8e-4e1f-b12c-a7acbcfe0854" name="Changes" comment="Testklasse inklusive Konstruktor-Test, credit Test; oftenCredit Test;">
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/main/java/org/campus02/Account.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/main/java/org/campus02/Account.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/src/test/java/test/AccountTest.java" beforeDir="false" afterPath="$PROJECT_DIR$/src/test/java/test/AccountTest.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -65,22 +66,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.oftenCredit">
-    <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KonfHK2021Termin1Uebung" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.AccountTest" />
-      <option name="TEST_OBJECT" value="class" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
+  <component name="RunManager" selected="JUnit.AccountTest.debit100">
     <configuration name="AccountTest.credit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KonfHK2021Termin1Uebung" />
       <extension name="coverage">
@@ -92,6 +78,54 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.AccountTest" />
       <option name="METHOD_NAME" value="credit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.debit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin1Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountTest" />
+      <option name="METHOD_NAME" value="debit" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.debit100" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin1Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountTest" />
+      <option name="METHOD_NAME" value="debit100" />
+      <option name="TEST_OBJECT" value="method" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.debit90" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin1Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountTest" />
+      <option name="METHOD_NAME" value="debit90" />
       <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
@@ -113,37 +147,13 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="AccountTest.testKonstruktor" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KonfHK2021Termin1Uebung" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="test.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <option name="PACKAGE_NAME" value="test" />
-      <option name="MAIN_CLASS_NAME" value="test.AccountTest" />
-      <option name="METHOD_NAME" value="testKonstruktor" />
-      <option name="TEST_OBJECT" value="method" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="All in KonfHK2021Termin1Uebung" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
-      <module name="KonfHK2021Termin1Uebung" />
-      <option name="PACKAGE_NAME" value="" />
-      <option name="TEST_OBJECT" value="package" />
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest.debit100" />
+        <item itemvalue="JUnit.AccountTest.debit90" />
+        <item itemvalue="JUnit.AccountTest.debit" />
         <item itemvalue="JUnit.AccountTest.oftenCredit" />
         <item itemvalue="JUnit.AccountTest.credit" />
-        <item itemvalue="JUnit.AccountTest.testKonstruktor" />
-        <item itemvalue="JUnit.AccountTest" />
-        <item itemvalue="JUnit.All in KonfHK2021Termin1Uebung" />
       </list>
     </recent_temporary>
   </component>
@@ -184,7 +194,14 @@
       <option name="project" value="LOCAL" />
       <updated>1675869802747</updated>
     </task>
-    <option name="localTasksCounter" value="5" />
+    <task id="LOCAL-00005" summary="Testklasse inklusive Konstruktor-Test, credit Test; oftenCredit Test;">
+      <created>1675870181061</created>
+      <option name="number" value="00005" />
+      <option name="presentableId" value="LOCAL-00005" />
+      <option name="project" value="LOCAL" />
+      <updated>1675870181061</updated>
+    </task>
+    <option name="localTasksCounter" value="6" />
     <servers />
   </component>
   <component name="VcsManagerConfiguration">
@@ -192,6 +209,7 @@
     <MESSAGE value="Methode depit, MVN-Konfiguration, inkl dependencies und surefire plugin" />
     <MESSAGE value="Testklasse inklusive Konstruktor-Test;" />
     <MESSAGE value="Testklasse inklusive Konstruktor-Test, credit Test;" />
-    <option name="LAST_COMMIT_MESSAGE" value="Testklasse inklusive Konstruktor-Test, credit Test;" />
+    <MESSAGE value="Testklasse inklusive Konstruktor-Test, credit Test; oftenCredit Test;" />
+    <option name="LAST_COMMIT_MESSAGE" value="Testklasse inklusive Konstruktor-Test, credit Test; oftenCredit Test;" />
   </component>
 </project>
