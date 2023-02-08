@@ -29,5 +29,14 @@ public class Account {
         amount = amount + value;
     }
 
+    public boolean debit(double valueMinus){
+        if ( valueMinus >= amount){
+            amount = amount - valueMinus;
+            return true;
+        } else {
+            return false;
+        }
+
+    }
 
 }
