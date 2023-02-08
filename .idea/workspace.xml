@@ -68,7 +68,7 @@
       <command value="mvn test" />
     </option>
   </component>
-  <component name="RunManager" selected="JUnit.AccountTest.testKonstruktor">
+  <component name="RunManager" selected="JUnit.AccountTest.credit">
     <configuration name="AccountTest" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
       <module name="KonfHK2021Termin1Uebung" />
       <extension name="coverage">
@@ -80,6 +80,22 @@
       <option name="PACKAGE_NAME" value="test" />
       <option name="MAIN_CLASS_NAME" value="test.AccountTest" />
       <option name="TEST_OBJECT" value="class" />
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="AccountTest.credit" type="JUnit" factoryName="JUnit" temporary="true" nameIsGenerated="true">
+      <module name="KonfHK2021Termin1Uebung" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="test.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <option name="PACKAGE_NAME" value="test" />
+      <option name="MAIN_CLASS_NAME" value="test.AccountTest" />
+      <option name="METHOD_NAME" value="credit" />
+      <option name="TEST_OBJECT" value="method" />
       <method v="2">
         <option name="Make" enabled="true" />
       </method>
@@ -110,6 +126,7 @@
     </configuration>
     <recent_temporary>
       <list>
+        <item itemvalue="JUnit.AccountTest.credit" />
         <item itemvalue="JUnit.AccountTest.testKonstruktor" />
         <item itemvalue="JUnit.AccountTest" />
         <item itemvalue="JUnit.All in KonfHK2021Termin1Uebung" />

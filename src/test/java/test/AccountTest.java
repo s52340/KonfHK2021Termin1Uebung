@@ -33,6 +33,10 @@ class AccountTest {
 
     @Test
      void credit() {
+        double expectedperson1 = 220.0;
+
+        person1.credit(120.0);
+        Assertions.assertEquals(expectedperson1,person1.getAmount());
     }
 
     @Test
